@@ -1,0 +1,203 @@
+/* 1330px media query breakpoint */
+@media (max-width: 1330px) {
+    .information-container {
+        flex-direction: column-reverse;
+    }
+
+    .hero-container {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-name {
+        text-align: center;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+    #hero-1 {
+        display: none;
+    }
+
+    #hero-2 {
+        display: block;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+    }
+
+    .hero-image  > img {
+        width: 100%;
+    }
+
+    .main {
+        height: 100%;
+    }
+
+    .footer-about , .footer-services, .footer-contact-us {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .testimonials-description {
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-info {
+        align-items: center;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    .footer-about > p, .footer-services > p, .footer-contact-us > p {
+        text-align: center;
+    }
+
+    .footer-about > h2, .footer-services > h2, .footer-contact-us  > h2 {
+        text-align: center;
+    }
+
+    .footer-description {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1295px) {
+    .testimonials {
+        margin-top: 30rem;
+    }
+
+    .main {
+        height: 550vh;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    body {
+        height: 500vh;
+    }
+    .projects {
+        height: 50rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 1270px) {
+    .projects {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-items-container {
+        display: none;
+    }
+
+    .service-container {
+        width: 99%;
+    }
+
+    .nav-burger {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-about , .footer-services, .footer-contact-us {
+        padding: 3rem;
+    }
+}
+
+
+@media (max-width: 1190px) {
+    .testimonials-information {
+        width: 100%;
+    }
+
+    #quote {
+        right: 1%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .service-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 490px) {
+    .hero-introduction {
+        font-size: 2rem;
+    }
+
+    .hero-name {
+        font-size: 3rem;
+    }
+
+    .service-container {
+        width: 95%;
+    }
+
+    .hero-info {
+        width: 90%;
+    }
+
+    .service-description {
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .main {
+        height: 670vh;
+    }
+
+    .footer {
+        height: 15%;
+    }
+
+    .footer-about , .footer-services, .footer-contact-us {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 863px) {
+
+    .projects {
+        margin-bottom: 35rem;
+    }
+
+    .main {
+        height: 630vh;
+    }
+}
+
+@media (max-width: 718px){
+    .main {
+        height: 680vh;
+    }
+}
+
+@media (max-height: 667px){
+    .main {
+        height: 900vh;
+    }
+}
